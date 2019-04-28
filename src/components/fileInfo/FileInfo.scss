@@ -1,0 +1,105 @@
+.wrap {
+  width: 180px;
+  height: 180px;
+  background-color: rgba(150, 150, 150, 0.2);
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.wrap:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.imgDiv {
+  width: 75%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5% solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 2px 0px;
+}
+
+.iconDir {
+  background: url('./icons/icon_dir.png') no-repeat;
+  background-size: cover;
+}
+
+.iconParentDir {
+  background: url('./icons/icon_parentDir.png') no-repeat;
+  background-size: cover;
+}
+
+.iconUnknow {
+  background: url('./icons/icon_unknow.png') no-repeat;
+  background-size: cover;
+}
+
+.iconVid {
+  background: url('./icons/icon_video.png') no-repeat;
+  background-size: cover;
+}
+
+.iconImg {
+  background: url('./icons/icon_img.png') no-repeat;
+  background-size: cover;
+}
+
+.iconSnd {
+  background: url('./icons/icon_sound.png') no-repeat;
+  background-size: cover;
+}
+
+.iconTxt {
+  background: url('./icons/icon_txt.png') no-repeat;
+  background-size: cover;
+}
+
+.icons {
+  margin: 1px 10px 1px 10px;
+  // background: url('./icons/icon_video.png');
+  border-radius: 50%;
+}
+
+.items:hover {
+  // background-color: rgba(0, 0, 0, 0.5);
+}
+
+.linkDiv {
+  width: 100%;
+  height: 25%;
+  line-height: 150%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.links {
+  position: relative;
+  top: 5px;
+  color: white;
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  width: 60%;
+  height: 60%;
+  position: relative;
+  top: -100%;
+  margin: 5% auto;
+}
+
+.itemType {
+  background-color: rgba(0,0,0,0.3);
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-weight: 700;
+  vertical-align: middle;
+  line-height: 30px;
+  font-size: 20px;
+  color: white;
+}

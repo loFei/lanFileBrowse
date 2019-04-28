@@ -1,0 +1,47 @@
+.bgWrap {
+  width: 100%;
+  height: 100%;
+}
+
+.itemList {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.items {
+  float: left;
+  margin: 10px;
+}
+
+.links:hover {
+  cursor: pointer;
+  color: rgba(0, 156, 255, 1);
+}
+
+.titleWrap {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  top: 0px;
+  margin: 0px;
+  padding: 0px;
+  z-index: 99;
+}
+
+.title {    
+  font-size: 30px;
+  line-height: 300%;
+  vertical-align:middle;
+  margin-left: 10px;
+  color: rgba(92, 184, 92, 1);
+}
+
+.content {
+  position: absolute;
+  top: 10%;
+  overflow: auto;
+  width: 100%;
+  height: 90%;
+}

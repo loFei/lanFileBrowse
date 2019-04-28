@@ -1,0 +1,30 @@
+{
+  "presets": [
+    [
+      "es2015",
+      {
+        "modules": false
+      }
+    ],
+    "react"
+  ],
+  "plugins": [
+    [
+    "transform-runtime",
+      "import", {
+        "libraryName": "antd",
+        "style": "css"
+      }
+    ]
+  //   "transform-class-properties",
+  //   "transform-es2015-classes",
+  //   [
+  //     "import",
+  //     {
+  //       "style": "../styles",
+  //       "libraryDirectory": "",
+  //       "libraryName": "material-ui"
+  //     }
+  //   ]
+  ]
+}
